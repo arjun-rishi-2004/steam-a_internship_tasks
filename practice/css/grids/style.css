@@ -1,0 +1,30 @@
+
+.container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-areas: "one two three" "four five six" "seven eight nine";
+   height: 100vh;
+
+
+}
+.box{
+ 
+   background-color: aqua;
+   border: 2px solid black;
+}
+
+/* .x,.o{
+   font-size: 100px;
+position:absolute;
+} */
+
+.box:nth-child(5){
+   background-color: brown;
+
+}
+
+.box:nth-child(5){
+   grid-area: "five";
+}
+

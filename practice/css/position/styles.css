@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    line-height: 60px; /* Center text vertically */
+}
+
+.container {
+    display: flex;
+    margin-top: 60px; /* To avoid overlap with header */
+}
+
+.sidebar {
+    position: static; /* Default static position */
+    width: 200px;
+    height: 500px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.content {
+    position: relative; /* Relative to its normal position */
+    flex-grow: 1; /* Fill the remaining space */
+    padding: 20px;
+    height: 500px;
+    background-color: #e0f7fa;
+}
+
+.relative-box {
+    position: relative; /* Relative to its original position */
+    background-color: #ffcc80;
+    width: 150px;
+    height: 100px;
+    margin: 20px 0;
+    top: 20px; /* Moves 20px down */
+}
+
+.absolute-box {
+    position: absolute; /* Removed from normal flow */
+    background-color: #90caf9;
+    width: 150px;
+    height: 100px;
+    top: 0; /* Positioning from the top of the content area */
+    right: 0; /* Positioning from the right of the content area */
+}
+
+.sticky-box {
+    position: sticky; /* Stick to top within its container */
+    top: 0; /* Sticks to the top of the viewport when scrolled */
+    background-color: #ffab91;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px; /* Margin for some spacing */
+}
+
+.footer {
+    position: static; /* Default static position */
+    width: 100%;
+    height: 60px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    line-height: 60px; /* Center text vertically */
+}

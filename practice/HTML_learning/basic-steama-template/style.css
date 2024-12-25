@@ -1,0 +1,87 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+@@ -13,4 +17,82 @@
+	font-family: Nunito Sans;
+    font-style: normal;
+
+}
+}
+
+body{
+	background-image: url("/assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.corner_image{
+	position: fixed;
+	top:0;
+	right:0;
+	margin:10px;
+}
+.heading{
+	margin-left: 45px;
+	font-weight: bolder;
+	letter-spacing: 0.2px;
+	font-size: 50px;
+	margin-bottom: 10px;
+	text-shadow: 0px 5px 5px rgba(61,61,61,0.6);
+
+}
+.tagline{
+	margin-left: 45px;
+	letter-spacing: 1px;
+	margin-top: -19px;
+	font-size: 22.5px;
+	color: dimgray;
+	font-weight: bolder;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(18, 125, 167);
+}
+
+.title{
+	background-color: rgb(237, 110, 64);
+	color: white;
+
+}
+table{
+	border-collapse: collapse;
+	width: 57%;
+	margin-left: 45px;
+	column-gap: 100%;
+	row-gap: 100%;
+	height:100%;
+}
+tr{
+	height: 50px;
+}
+td{
+	padding-left: 12px;
+}
+tr:nth-child(2){
+	background-color: rgba(247, 240, 240, 0.781);
+}
+tr:nth-child(n+3):nth-child(-n+11){
+	background-color: white;
+}
+
+tr td{
+	border-bottom:2px solid rgba(160, 159, 159, 0.601);
+}
+#status{
+	color: grey;
+}
+td:nth-child(n+3):nth-child(-n+6){
+	padding-right: 20px;
+}
+#score{
+	padding-left: 70px;
+}

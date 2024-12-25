@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 0 1em;
+}
+nav{
+    margin:0 auto
+}
+td{
+    border: 2px saddlebrown solid;
+}
+th{
+    border:2px black dotted;
+}
+
+.profile{
+    width:5%;
+    height:3%;
+    border-radius: 50%;
+}
+.author_name{
+    display: inline;
+    vertical-align: middle;
+}

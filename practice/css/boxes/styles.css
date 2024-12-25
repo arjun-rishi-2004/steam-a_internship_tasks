@@ -1,0 +1,23 @@
+
+.parent{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.child{
+width: 100px;
+height: 100px;
+background-color: black;
+outline: 5px solid yellow;
+}
+.one{
+    margin-top: 10px;
+}
+.two{
+    margin-top: 10px;
+}
